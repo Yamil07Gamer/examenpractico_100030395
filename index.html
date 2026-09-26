@@ -17,10 +17,10 @@
                 <div class="ms-1" id="selectores">
                     <ul class="navbar-nav">
                         <li class="navbar-item">
-                            <a href="#adoplushes" class="nav-link active" onclick="gyaru()">Ado</a>
+                            <a href="#acerca" class="nav-link active">Acerca de nosotros</a>
                         </li>
                         <li class="navbar-item">
-                            <a href="#" class="nav-link active">Calculadora</a>
+                            <a href="#preado" class="nav-link active" onclick="gyaru()">Ado</a>
                         </li>
                         <li class="navbar-item">
                             <a href="#" class="nav-link active">Lista dinamica</a>
@@ -42,9 +42,48 @@
 
     <main>
 
+        <section id="acerca">
+            <div class="container">
+                <h2 class="text-white mb-4 text-center">Acerca de nosotros</h2>
+                
+                <div class="row g-4 align-items-stretch">
+                    
+                    <!-- Columna Izquierda: Cuadro grande -->
+                    <div class="col-12 col-lg-6">
+                        <div class="card p-4 text-white bg-dark mi-tarjeta" id="quienes_somos">
+                            <h3>¿Quienes somos?</h3>
+                            <p class="mt-3 text-light">
+                                Somos una empresa que permite a los artistas independientes crear y distribuir su mercancia oficial a toda LATAM.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha: Contenedor para apilar los 2 cuadros pequeños -->
+                    <div class="col-12 col-lg-6 d-flex flex-column justify-content-between gap-4">
+                        
+                        <!-- Cuadro Superior Derecho -->
+                        <div class="card p-4 text-white bg-dark mi-tarjeta flex-fill" id="mision">
+                            <h5>Mision</h5>
+                            <p class="mb-0">Texto o información del segundo cuadro.</p>
+                        </div>
+
+                        <!-- Cuadro Inferior Derecho -->
+                        <div class="card p-4 text-white bg-dark mi-tarjeta flex-fill" id="preado">
+                            <h5>Valores</h5>
+                            <p class="mb-0">Mantenemos total respeto a los artistas con su propiedad intelectual,
+                                a nuestros trabajadores con excelentes prestaciones.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
 
         <section id="adoplushes-section">
-            <div class="container mt-5" id="adoplushes-container">
+            <div class="container" id="adoplushes-container">
                 <h2 class="mb-4 text-light">Merch de Ado</h2>
 
                 <div class="row g-4" id="3ados">

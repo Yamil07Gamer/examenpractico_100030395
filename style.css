@@ -21,6 +21,56 @@ main{
     margin-top: 5.5307rem;
 }
 
+
+/*Seccion acerca de nosotros*/
+
+
+#acerca{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #052c65;
+    transition: all 0.3s ease;
+}
+
+#quienes_somos{
+    background-image: url(/img/grandes/hombredelacaja.jpg);
+    height: 30rem;
+    transition: all 0.3s ease;
+    border-color: #dc3545;
+}   
+
+#quienes_somos:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #00ffee !important;
+}
+
+#mision{
+    background-image: url(/img/grandes/fabrica_peluches.jpg);
+    background-size: cover;
+    transition: all 0.3s ease;
+    border-color: #dc3545;
+}
+
+#mision:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #00ffee !important;
+}
+
+#preado{
+    border-color: #dc3545;
+    transition: all 0.3s ease;
+    background-image: url(/img/grandes/fabrica_peluches.jpg);
+    background-size: cover;
+}
+
+#preado:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #00ffee !important;
+    
+}
+
+/* Seccion de ado */
+
 .card-img-top {
     height: 250px;       /* Ajusta la altura fija que prefieras (ej. 250px o 280px) */
     object-fit: cover;   /* Recorta la imagen proporcionalmente para que llene el espacio sin deformarse */
