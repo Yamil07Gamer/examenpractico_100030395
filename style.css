@@ -1,0 +1,32 @@
+root{
+    --color-ado: #050034;
+    --color-ado2: #001aff;
+
+    --color-cyan-neon: #00ffee;
+    --color-acero: #1a1d24;
+    --color-smoke: #f0f4f8;
+    --color-alerta: #de9b00;
+
+    --color-mirage: #de9b00;
+    --color-dust2: #fff1cf;
+    --color-acient: #185f00;
+}
+
+
+main{
+    margin-top: 5.4rem;
+}
+
+.card-img-top {
+    height: 250px;       /* Ajusta la altura fija que prefieras (ej. 250px o 280px) */
+    object-fit: cover;   /* Recorta la imagen proporcionalmente para que llene el espacio sin deformarse */
+    object-position: center; /* Centra la imagen para que no se corte lo importante */
+}
+
+#adoplushes-section{
+    background-color: #050034 !important;
+}
+
+#Gyaru{
+    border-color: #001aff;
+}
