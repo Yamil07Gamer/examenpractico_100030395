@@ -45,7 +45,7 @@ main{
 }
 
 #mision{
-    background-image: url(/img/grandes/fabrica_peluches.jpg);
+    background-image: url(/img/grandes/mision.jpg);
     background-size: cover;
     transition: all 0.3s ease;
     border-color: #dc3545;
