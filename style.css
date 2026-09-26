@@ -2,7 +2,11 @@ root{
     --color-ado: #050034;
     --color-ado2: #001aff;
 
-    --color-cyan-neon: #00ffee;
+    --color-ado-neon: #00ffee;
+    --color-ado-camaron: #e9f111;
+    --color-adomination: #13a300;
+    --color-adomination-back: #4cfa35;
+
     --color-acero: #1a1d24;
     --color-smoke: #f0f4f8;
     --color-alerta: #de9b00;
@@ -14,7 +18,7 @@ root{
 
 
 main{
-    margin-top: 5.4rem;
+    margin-top: 5.5307rem;
 }
 
 .card-img-top {
@@ -24,9 +28,61 @@ main{
 }
 
 #adoplushes-section{
-    background-color: #050034 !important;
+    background-color: #03001c !important;
+}
+
+#adoplushes-container{
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
 }
 
 #Gyaru{
     border-color: #001aff;
+    transition: all 0.3s ease;
 }
+
+#Gyaru:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #00ffee !important;
+}
+
+#adoplush{
+    border-color: #001aff;
+    transition: all 0.3s ease;
+}
+
+#adoplush:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #62bef8 !important;
+}
+
+#Gyaru-Camaron{
+    border-color: #001aff;
+    transition: all 0.3s ease;
+}
+
+#Gyaru-Camaron:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #e9f111 !important;
+}
+
+#Adocamisa{
+    border-color: #000000;
+    transition: all 0.3s ease;
+}
+
+#Adocamisa:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #ffffff !important;
+}
+
+#Adomination{
+    border-color: #13a300;
+    transition: all 0.3s ease;
+}
+
+#Adomination:hover{
+    transform: scale(1.03) !important; 
+    box-shadow: 0 10px 20px #4cfa35 !important;
+}
+
